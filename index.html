@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VBX Enterprises Ltd | Integrated Business Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Sora', sans-serif; }
+        
+        .hero-pattern {
+            background-color: #0f172a;
+            background-image: radial-gradient(circle at 2px 2px, #1e293b 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+
+        .gradient-border {
+            border-image: linear-gradient(to right, #3b82f6, #60a5fa) 1;
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="bg-blue-600 p-2 rounded-lg">
+                    <i class="fas fa-layer-group text-white text-xl"></i>
+                </div>
+                <div class="leading-none">
+                    <span class="text-xl font-extrabold tracking-tighter block">VBX ENTERPRISES</span>
+                    <span class="text-[9px] uppercase tracking-[0.3em] font-bold text-blue-600">Global Solutions</span>
+                </div>
+            </div>
+            <div class="hidden md:flex space-x-10 text-xs font-bold uppercase tracking-widest text-slate-600">
+                <a href="#home" class="hover:text-blue-600 transition">Beranda</a>
+                <a href="#about" class="hover:text-blue-600 transition">Tentang</a>
+                <a href="#services" class="hover:text-blue-600 transition">Layanan</a>
+                <a href="#contact" class="hover:text-blue-600 transition">Kontak</a>
+            </div>
+            <a href="#contact" class="hidden md:block bg-slate-900 text-white px-6 py-2.5 rounded-full text-xs font-bold hover:bg-blue-600 transition shadow-lg">
+                Hubungi Kami
+            </a>
+        </div>
+    </nav>
+
+    <header id="home" class="hero-pattern min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-6 w-full grid lg:grid-cols-2 gap-12 items-center">
+            <div class="text-white">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-8">
+                    <span class="w-2 h-2 rounded-full bg-blue-500 animate-pulse"></span> BERBASIS DI CROYDON, UK
+                </div>
+                <h1 class="text-5xl md:text-7xl font-extrabold mb-8 leading-tight tracking-tighter">
+                    Membangun <span class="text-blue-500 text-outline">Infrastruktur</span> Bisnis Modern.
+                </h1>
+                <p class="text-lg text-slate-400 mb-10 leading-relaxed max-w-xl font-light">
+                    VBX Enterprises Ltd menghadirkan solusi operasional terintegrasi untuk membantu perusahaan Anda menavigasi kompleksitas pasar global dengan efisiensi maksimal.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#services" class="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-500 transition-all transform hover:-translate-y-1 shadow-2xl shadow-blue-600/30">
+                        Jelajahi Solusi
+                    </a>
+                    <a href="#about" class="bg-slate-800 text-white px-8 py-4 rounded-xl font-bold hover:bg-slate-700 transition-all border border-slate-700">
+                        Profil Perusahaan
+                    </a>
+                </div>
+            </div>
+            <div class="relative hidden lg:block">
+                <div class="absolute -inset-4 bg-blue-500/20 blur-3xl rounded-full"></div>
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=2069&auto=format&fit=crop" alt="Modern Office" class="relative z-10 rounded-3xl border border-slate-700 shadow-2xl grayscale hover:grayscale-0 transition duration-700">
+                <div class="absolute -bottom-10 -right-10 bg-white p-6 rounded-2xl shadow-2xl border border-slate-100 max-w-xs z-20">
+                    <p class="text-blue-600 font-black text-4xl mb-1">12</p>
+                    <p class="text-slate-900 font-bold text-sm">Parkview Road, Croydon</p>
+                    <p class="text-slate-500 text-xs">Pusat Strategis London Selatan</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="services" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-6">
+                <div class="max-w-2xl">
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-slate-900 mb-6 tracking-tight uppercase">Solusi Utama Kami</h2>
+                    <p class="text-slate-500 leading-relaxed">Kami merancang layanan yang fleksibel dan dapat disesuaikan untuk memenuhi kebutuhan unik setiap mitra bisnis kami.</p>
+                </div>
+                <div class="h-1 w-24 bg-blue-600 mb-2"></div>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-10 rounded-3xl border border-slate-100 hover:border-blue-500 transition-all duration-500 group shadow-sm hover:shadow-2xl">
+                    <div class="w-14 h-14 bg-slate-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors">
+                        <i class="fas fa-project-diagram text-blue-600 text-2xl group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Enterprise Consulting</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Analisis mendalam dan strategi taktis untuk meningkatkan produktivitas serta efisiensi biaya operasional perusahaan.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl border border-slate-100 hover:border-blue-500 transition-all duration-500 group shadow-sm hover:shadow-2xl">
+                    <div class="w-14 h-14 bg-slate-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors">
+                        <i class="fas fa-truck-loading text-blue-600 text-2xl group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Supply Chain Excellence</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Manajemen rantai pasok yang cerdas, memastikan distribusi barang dan jasa berjalan tepat waktu tanpa hambatan.</p>
+                </div>
+                <div class="bg-white p-10 rounded-3xl border border-slate-100 hover:border-blue-500 transition-all duration-500 group shadow-sm hover:shadow-2xl">
+                    <div class="w-14 h-14 bg-slate-50 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 transition-colors">
+                        <i class="fas fa-briefcase text-blue-600 text-2xl group-hover:text-white"></i>
+                    </div>
+                    <h4 class="text-xl font-bold mb-4">Trade Support</h4>
+                    <p class="text-slate-600 text-sm leading-relaxed">Dukungan teknis dan administrasi untuk perdagangan antar-wilayah, memudahkan ekspansi bisnis Anda di UK.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 bg-white overflow-hidden">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-16">
+            <div class="md:w-1/2">
+                <h3 class="text-3xl font-extrabold mb-8 text-slate-900">Kedekatan Strategis. <br><span class="text-blue-600">Efisiensi Tanpa Batas.</span></h3>
+                <p class="text-slate-600 mb-8 leading-relaxed">Berlokasi di Parkview Road, Croydon, **VBX Enterprises Ltd** berada di titik temu strategis antara pusat keuangan London dan jalur logistik utama. Lokasi ini memungkinkan kami merespons kebutuhan klien dengan kecepatan yang tak tertandingi.</p>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <span class="font-bold text-slate-800">Manajemen Berstandar UK</span>
+                    </div>
+                    <div class="flex items-center gap-4">
+                        <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <span class="font-bold text-slate-800">Integritas & Transparansi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="md:w-1/2 bg-slate-900 p-4 rounded-3xl shadow-3xl">
+                <div class="bg-slate-800 rounded-2xl p-8 border border-slate-700">
+                    <p class="text-blue-400 font-bold text-xs uppercase mb-4 tracking-widest">Registered Office</p>
+                    <p class="text-white text-2xl font-bold leading-tight mb-8 italic">"12 Parkview Road, Croydon, CR0 7DE, United Kingdom"</p>
+                    <div class="flex gap-4">
+                        <div class="flex-1 h-2 bg-blue-600 rounded-full"></div>
+                        <div class="flex-1 h-2 bg-slate-700 rounded-full"></div>
+                        <div class="flex-1 h-2 bg-slate-700 rounded-full"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-950 text-white py-24 px-6 relative overflow-hidden">
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <h2 class="text-4xl md:text-6xl font-extrabold mb-8 tracking-tighter">Siap Mengoptimalkan <br>Bisnis Anda?</h2>
+            <p class="text-slate-400 mb-12 text-lg">Hubungi tim ahli kami untuk konsultasi awal mengenai kebutuhan operasional dan strategi perusahaan Anda.</p>
+            
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center mb-16">
+                <div class="flex items-center gap-4 bg-slate-900 border border-slate-800 px-8 py-4 rounded-2xl w-full md:w-auto">
+                    <i class="fas fa-envelope text-blue-500"></i>
+                    <span class="font-bold">contact@vbxenterprises.co.uk</span>
+                </div>
+                <div class="flex items-center gap-4 bg-slate-900 border border-slate-800 px-8 py-4 rounded-2xl w-full md:w-auto">
+                    <i class="fas fa-clock text-blue-500"></i>
+                    <span class="font-bold">Mon - Fri: 09:00 - 17:00 GMT</span>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-900 pt-12 flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="flex items-center gap-2">
+                    <div class="bg-blue-600 p-1.5 rounded-md">
+                        <i class="fas fa-layer-group text-white text-xs"></i>
+                    </div>
+                    <span class="text-sm font-bold tracking-widest">VBX ENTERPRISES LTD</span>
+                </div>
+                <p class="text-[10px] text-slate-600 uppercase tracking-[0.2em] font-medium">
+                    &copy; 2026 VBX Enterprises Limited. Registered in England & Wales.
+                </p>
+            </div>
+        </div>
+        
+        <div class="absolute top-1/2 left-0 -translate-y-1/2 w-64 h-64 bg-blue-600/10 blur-[120px]"></div>
+        <div class="absolute bottom-0 right-0 w-64 h-64 bg-blue-900/10 blur-[120px]"></div>
+    </footer>
+
+</body>
+</html>
